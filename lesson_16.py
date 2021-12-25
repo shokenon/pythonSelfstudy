@@ -69,29 +69,31 @@ Created on Sat Dec 18 15:12:03 2021
 # tup = (0,1,2,3)
 # print(tup[::-1])
 
-menu = {
-        'osh':20000,
-        "lag'mon":22000,
-        'non':4000,
-        'choy':5000,
-        'shashlik':12000,
-        'somsa':6000,
-        'tabaka':15000
-        }
+# menu = {
+#         'osh':20000,
+#         "lag'mon":22000,
+#         'non':4000,
+#         'choy':5000,
+#         'shashlik':12000,
+#         'somsa':6000,
+#         'tabaka':15000
+#         }
 
-print('3 ta taom buyurtma bering.')
-buyurtmalar = []
-for n in range(3):
-    buyurtmalar.append(input(f"{n+1}-taom:").lower())
+# print('3 ta taom buyurtma bering.')
+# buyurtmalar = []
+# for n in range(3):
+#     buyurtmalar.append(input(f"{n+1}-taom:").lower())
 
-for buyurtma in buyurtmalar:
-    if buyurtma in menu:
-        print(f"{buyurtma.title()} {menu[buyurtma]} so'm")
-    else:
-        print(f"Kechirasiz, bizda {buyurtma} yo'q.")
+# for buyurtma in buyurtmalar:
+#     if buyurtma in menu:
+#         print(f"{buyurtma.title()} {menu[buyurtma]} so'm")
+#     else:
+#         print(f"Kechirasiz, bizda {buyurtma} yo'q.")
 
 
-
+x = [(3,4),(2,3), (4,9)]
+x.sort()
+print(x)
 
 
 
