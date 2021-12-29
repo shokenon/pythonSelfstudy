@@ -91,9 +91,10 @@ Created on Sat Dec 18 15:12:03 2021
 #         print(f"Kechirasiz, bizda {buyurtma} yo'q.")
 
 
-x = [(3,4),(2,3), (4,9)]
-x.sort()
-print(x)
+# x = [(3,4),(2,3), (4,9)]
+# x.sort()
+# print(x)
+
 
 
 
