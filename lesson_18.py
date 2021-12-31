@@ -61,24 +61,24 @@ Created on Tue Dec 28 12:29:20 2021
 # print(cars)
 
 
-taomlar = []
+# taomlar = []
 
-print("Taom buyuramiz")
-n=1
-while True:
-    savol = f"{n} - taomni yozing:"
-    nomi = input(savol)
-    taomlar.append(nomi)
-    javob = input("Yana taom buyurasizmi? (ha/yo'q) ")
-    if javob == 'ha':
-        n+=1
-        continue
-    else:
-        break
-print("Ro'yxat tuzildi") 
-print("Do'stlaringiz ro'yxati:")
-for nomi in taomlar:
-    print(nomi.title())
+# print("Taom buyuramiz")
+# n=1
+# while True:
+#     savol = f"{n} - taomni yozing:"
+#     nomi = input(savol)
+#     taomlar.append(nomi)
+#     javob = input("Yana taom buyurasizmi? (ha/yo'q) ")
+#     if javob == 'ha':
+#         n+=1
+#         continue
+#     else:
+#         break
+# print("Ro'yxat tuzildi") 
+# print("Do'stlaringiz ro'yxati:")
+# for nomi in taomlar:
+#     print(nomi.title())
     
 
 
